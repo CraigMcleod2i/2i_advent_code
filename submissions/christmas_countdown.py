@@ -6,7 +6,7 @@ now = dt.now()
 
 date = datetime.datetime(2022, 12, 25) - datetime.datetime.now()
 
-xmas_date = str(date.days)
+xmas_date = str(date.days + 1)
 
 xmas = "       " + xmas_date
 
