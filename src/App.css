@@ -82,7 +82,6 @@ flex-direction: column;
   font-size: 3rem;
 }
 .closed p {
-  /* background-color: rgba(255, 255, 255, 0.541); */
   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(245,245,245,0) 70%);
   border: 3px solid rgba(255, 255, 255, 0.185);
   height: 5rem;
@@ -123,4 +122,80 @@ a:visited, a:link, a:hover, a:active {
   #advent-calendar {
     min-height: unset;
   }
+}
+
+#dice-container {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.dice {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  /* background-color: white; */
+  margin: auto;
+  transform-style: preserve-3d;
+  /* perspective: 500px; */
+  display: flex;
+  flex-direction: column;
+  transform: rotateX(5deg) rotateY(5deg);
+  transition: 2s ease all;
+}
+.dice div {
+  display: flex;
+  justify-content: space-around;
+  height: 1rem;
+  margin: auto;
+  border-radius: 0.2rem;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(205, 205, 205);
+  border-radius: 1rem;
+
+}
+p {
+  height: fit-content !important;
+  margin: auto;
+}
+
+#dice1Side0, #dice2Side0 {
+  transform: translateZ(-300px);
+  background-color: rgb(255, 204, 109);
+}
+#dice1Side1 , #dice2Side1{
+  transform: rotateX(90deg);
+  transform-origin: bottom;
+  background-color: rgb(255, 135, 155);
+}
+#dice1Side2, #dice2Side2 {
+ width: 300px;
+ transform: translateZ(-300px) rotateY(90deg);
+ transform-origin: right;
+ background-color: #9f9fff;
+}
+#dice1Side3, #dice2Side3 {
+ width: 300px;
+ transform: translateZ(-300px) rotateY(-90deg);
+ transform-origin: left;
+ background-color: rgb(255, 120, 120);
+}
+#dice1Side4 , #dice2Side4{
+ background-color: rgb(107, 107, 107);
+ transform: translateZ(-300px) rotateX(90deg);
+ transform-origin: top;
+}
+#dice1Side5 , #dice2Side5{
+  background-color: rgb(94, 130, 94);
+}
+#dice1 {
+  transform: translate(-50%, -50%);
+}
+#dice2 {
+  transform: translate(100%, 100%);
 }
