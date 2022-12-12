@@ -1,0 +1,38 @@
+body {
+  overflow-y: hidden;
+}
+
+.slides {
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  overflow-x: scroll;
+}
+
+section {
+  height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  scroll-snap-align: start;
+}
+
+#section1 {
+  background-image: url(https://www.history.com/.image/t_share/MTY4ODE4ODA4MzY1MDAwNDY1/christmas-gettyimages-184652817.jpg);
+}
+
+#section2 {
+  background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gh-christmas-around-the-world-1607098779.png);
+}
+
+#section3 {
+  background-image: url(https://s3.envato.com/files/256893500/2019-01461.jpg);
+}
+
+h2 {
+  margin-left: 5em;
+  font-size: 10rem;
+}
