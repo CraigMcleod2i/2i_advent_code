@@ -1,4 +1,3 @@
-import React, {useState, useEffect} from 'react';
 const Card = ({days, pic, i, currentCard}) => {
     const month = 11
     return(

@@ -4,7 +4,10 @@
   height: 100%;
   display: flex;
   position: fixed;
-  background: linear-gradient(to bottom right, rgb(11, 24, 9), rgb(21, 43, 16));
+  /* background: linear-gradient(to bottom right, rgb(11, 24, 9), rgb(21, 43, 16)); */
+  background: url('./snow.jpg');
+  background-size: cover;
+  background-position: bottom;
   flex-wrap: wrap;
   cursor: grab;
 flex-direction: column;
@@ -63,8 +66,8 @@ flex-direction: column;
   background-position: center;
 }
 .advent-card {
-  width: 45%;
-  height: 18%;
+  width: 40%;
+  height: 16%;
   margin: auto;
   box-sizing: border-box;
   background-color: wheat;
@@ -104,14 +107,14 @@ flex-direction: column;
   height: fit-content;
   margin: auto;
   border-radius: 0.6rem;
-  border: dashed 2px rgba(255, 255, 255, 0.737);
+  border: dashed 3px rgb(122, 162, 165);
   padding: 0.6rem;
-  background-color: rgba(245, 245, 245, 0.159);
+  background-color: rgba(39, 39, 39, 0.555);
 
 }
 a:visited, a:link, a:hover, a:active {
   text-decoration: none;
-  color:rgba(255, 255, 255, 0.644);
+  color:rgba(255, 255, 255, 0.829);
   font-weight: 800;
   font-size: 1.4rem;
 }
