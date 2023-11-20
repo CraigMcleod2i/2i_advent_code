@@ -2,7 +2,7 @@
 
 # 2i Mini Advent of Code!
 
-Challenges will be released on weekdays between 1st and 14th December, and final submissions are due by the 16th.
+Challenges will be released on weekdays between 1st and 15th December, and final submissions are due by the 22nd.
 
 Challenges are intended to take 30 minutes or less - it is of course up to you if you spend any longer.
 
@@ -13,7 +13,7 @@ Please pull the current repository, create a branch and add your submissions to 
 # Challenge ideas
 <details>
 <summary>
-The full list of ideas submitted here:
+The full list of ideas submitted here (2022):
 </summary>
 
     * Produce a function that outputs text to the terminal which is greater than 1 line in height. - Dougmac
