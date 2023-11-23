@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/2i_advent_code/static/css/main.8ef295af.css",
-    "main.js": "/2i_advent_code/static/js/main.f3e7b0aa.js",
+    "main.css": "/2i_advent_code/static/css/main.68914a8d.css",
+    "main.js": "/2i_advent_code/static/js/main.4ab0df3d.js",
     "static/js/787.80fe2b25.chunk.js": "/2i_advent_code/static/js/787.80fe2b25.chunk.js",
     "static/media/snow.jpg": "/2i_advent_code/static/media/snow.169a88a67917946a360f.jpg",
     "static/media/fairy-lights.jpg": "/2i_advent_code/static/media/fairy-lights.e63747aef4dd536a8267.jpg",
@@ -16,14 +16,14 @@
     "static/media/ornament.jpg": "/2i_advent_code/static/media/ornament.10d3fb899f9f886edbca.jpg",
     "static/media/chewy.jpg": "/2i_advent_code/static/media/chewy.fc5dee5d836173b15daf.jpg",
     "static/media/santa.jpeg": "/2i_advent_code/static/media/santa.74d737cc97fd2036399b.jpeg",
-    "static/media/Book.csv": "/2i_advent_code/static/media/Book.240aba3edd0e04aca9ca.csv",
+    "static/media/Book.csv": "/2i_advent_code/static/media/Book.f5cd21b912347d1ab744.csv",
     "index.html": "/2i_advent_code/index.html",
-    "main.8ef295af.css.map": "/2i_advent_code/static/css/main.8ef295af.css.map",
-    "main.f3e7b0aa.js.map": "/2i_advent_code/static/js/main.f3e7b0aa.js.map",
+    "main.68914a8d.css.map": "/2i_advent_code/static/css/main.68914a8d.css.map",
+    "main.4ab0df3d.js.map": "/2i_advent_code/static/js/main.4ab0df3d.js.map",
     "787.80fe2b25.chunk.js.map": "/2i_advent_code/static/js/787.80fe2b25.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ef295af.css",
-    "static/js/main.f3e7b0aa.js"
+    "static/css/main.68914a8d.css",
+    "static/js/main.4ab0df3d.js"
   ]
 }
