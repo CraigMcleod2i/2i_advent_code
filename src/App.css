@@ -94,9 +94,13 @@ flex-direction: column;
   border-radius: 50%;
   box-sizing: border-box;
   cursor: not-allowed;
+  font-family: 'Syne Mono';
+  margin: auto;
+  font-weight: 800;
 }
 @import url(https://fonts.googleapis.com/css?family=Syne+Mono:regular);
-.advent-card p {
+.advent-card:not(.closed) p {
+  font-size: 0.65rem !important;
   margin: auto;
   font-weight: 800;
   text-align: center;

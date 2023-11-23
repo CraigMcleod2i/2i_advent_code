@@ -16,7 +16,7 @@ import snow from "./snow.jpg";
 import Card from "./Card/card";
 import Doctor from "./Card/CardAssets/doctor.jpg";
 import csv from "./Book.csv";
-const shuffle = "WzUsIDYsIDcsIDE1LCAxMSwgMTMsIDEsIDQsIDE0LCAxMiwgOF0=";
+const shuffle = "WzMsOCwxMCw3LDUsMjAsNCwxNyw5LDEzLDE4XQ==";
 const days = [5, 6, 7, 15, 11, 13, 1, 4, 14, 12, 8];
 
 const pic = [
