@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/2i_advent_code/static/css/main.68914a8d.css",
+    "main.css": "/2i_advent_code/static/css/main.f9c455b2.css",
     "main.js": "/2i_advent_code/static/js/main.4ab0df3d.js",
     "static/js/787.80fe2b25.chunk.js": "/2i_advent_code/static/js/787.80fe2b25.chunk.js",
     "static/media/snow.jpg": "/2i_advent_code/static/media/snow.169a88a67917946a360f.jpg",
@@ -18,12 +18,12 @@
     "static/media/santa.jpeg": "/2i_advent_code/static/media/santa.74d737cc97fd2036399b.jpeg",
     "static/media/Book.csv": "/2i_advent_code/static/media/Book.f5cd21b912347d1ab744.csv",
     "index.html": "/2i_advent_code/index.html",
-    "main.68914a8d.css.map": "/2i_advent_code/static/css/main.68914a8d.css.map",
+    "main.f9c455b2.css.map": "/2i_advent_code/static/css/main.f9c455b2.css.map",
     "main.4ab0df3d.js.map": "/2i_advent_code/static/js/main.4ab0df3d.js.map",
     "787.80fe2b25.chunk.js.map": "/2i_advent_code/static/js/787.80fe2b25.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68914a8d.css",
+    "static/css/main.f9c455b2.css",
     "static/js/main.4ab0df3d.js"
   ]
 }
