@@ -74,11 +74,11 @@ flex-direction: column;
   background-color: wheat;
   border-radius: 0.4rem;
   justify-content: center;
-  border: inset rgb(44, 6, 78) 3px;
+  border: solid rgba(91, 23, 11, 0.633) 3px;
   box-shadow: inset 6px 6px 25px 12px rgba(0, 0, 0, 0.507), 0px 0px 5px 3px rgba(48, 7, 0, 0.529);
   display: flex;
-  padding: 0.6rem;
-    cursor: url('image.png'), auto !important;
+  padding: 0.4rem;
+  cursor: url('image.png'), auto !important;
 }
 
 .closed {
@@ -101,11 +101,13 @@ flex-direction: column;
 }
 @import url(https://fonts.googleapis.com/css?family=Syne+Mono:regular);
 .advent-card:not(.closed) p {
-  font-size: 0.65rem !important;
+  font-size: xx-small !important;
   margin: auto;
   font-weight: 800;
   text-align: center;
   font-family: 'Syne Mono';
+  height: fit-content !important;
+  /* line-height: auto; */
 }
 
 #submit-link {
