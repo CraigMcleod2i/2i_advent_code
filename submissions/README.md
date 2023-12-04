@@ -1,3 +1,3 @@
 # 2i Advent of Code 2023!
 
-Submissions to follow...
+To run a submission, from the terminal, enter: `go run .\<file-name>.go`
