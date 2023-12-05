@@ -1,7 +1,7 @@
-successString = "Congratulations! You traveller made it all the way across the bridge!"
+successString = "Congratulations! Your traveller made it all the way across the bridge!"
 failString = "...your traveller didn't make it, there was a gap in the bridge..."
 
-puts("Please build a string bridge : ")
+puts("Please build a string bridge and then hit enter: ")
 
 inputString = gets
 
