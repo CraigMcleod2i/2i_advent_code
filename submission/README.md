@@ -6,12 +6,15 @@ All Projects are written in C# using the .NET 8 framework. Easiest way to open a
 Below are some brief explanations to my solutions to the problems presented in the Advent Code Event! ❄️
 ### 1️⃣ - Broken Bridge
 **Problem:** Create a function that accepts a string of characters to represent a bridge which will return true if the bridge is safe to cross (does not contain any empty spaces) otherwise false.
+
 **Solution:** First we validate the string then, determine if there are any white spaces present.
 ### 2️⃣ - Compression
 **Problem:** Create a simple compression algorithm to convert a given string. (e.g. AAAABBBB -> A4B4) The smaller the better.
+
 **Solution:** Shorten via db/id hashing/saving then compress the string using Brotli. 
 ### 3️⃣ - Free Coffee-cup counter
 **Problem:** Every 6 cups of coffee I buy, I get the 7th for free. Create a function that takes the total cups I have bought and returns how many free cups I would receive.
+
 **Solution:** Divide bought cups by 6, round the result down (just cast to BigInt). 🧠
 
 ## Navigation
